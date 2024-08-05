@@ -6,9 +6,13 @@ import MyWork from './Components/MyWork/MyWork'
 import NavBar from './Components/NavBar/NavBar'
 import Services from './Components/Services/Services'
 
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 const App = () => {
   return (
     <div>
+      <ToastContainer />
       <NavBar />
       <Hero />
       <About />
